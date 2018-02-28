@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp1.1</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <LangVersion>7</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="BusinessLogic.cs" />
+    <Compile Remove="GridLayout.cs" />
+    <Compile Remove="IHit.cs" />
+    <Compile Remove="ILocation.cs" />
+    <Compile Remove="IMap.cs" />
+    <Compile Remove="ShipLocation.cs" />
+    <Compile Remove="StandardLocation.cs" />
+  </ItemGroup>
+
+</Project>

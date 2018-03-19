@@ -1,4 +1,4 @@
-﻿This is a Bede Gaming programming test.  
+﻿This is a Game programming test.  
 
 I used SOLID principles and one design pattern in this project.  
 
